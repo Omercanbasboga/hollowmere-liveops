@@ -37,6 +37,10 @@ Levels `1` and `2` are seeded with sane defaults on startup.
 
 Runs on port 8080 by default, or whatever `PORT` is set to (Render sets this itself).
 
+To play the game against it, open Hollowmere with `?liveops=` and the service's address, for example
+`https://omercanbasboga.github.io/hollowmere/?liveops=http://localhost:8080`. Without that the game
+reads a bundled copy of the same config.
+
 ## Tests
 
 ```bash
